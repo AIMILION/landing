@@ -1,10 +1,7 @@
-// app/page.tsx (arba ten, kur naudoji)
-// Jei šiame faile NENAUDOJI "use client", tai – serverinis komponentas ir new Date() ok.
-import Image from "next/image";
-
 export default function Home() {
-  const year = new Date().getFullYear();
-
+  return (
+    <main className="flex flex-col min-h-screen bg-black text-white">
+     
   return (
     <main className="flex flex-col min-h-screen bg-black text-white">
       {/* Header su logotipu ir pavadinimu */}
