@@ -1,7 +1,6 @@
+import Image from "next/image";
+
 export default function Home() {
-  return (
-    <main className="flex flex-col min-h-screen bg-black text-white">
-     
   return (
     <main className="flex flex-col min-h-screen bg-black text-white">
       {/* Header su logotipu ir pavadinimu */}
@@ -30,7 +29,7 @@ export default function Home() {
         </h2>
       </section>
 
-      {/* Footer su linkais kairėje */}
+      {/* Footer */}
       <footer className="p-6">
         <div className="flex flex-col space-y-2 text-sm text-gray-400">
           <a
@@ -38,7 +37,6 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white"
-            aria-label="Open AIMILION on Facebook"
           >
             Facebook
           </a>
@@ -47,20 +45,15 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white"
-            aria-label="Open AIMILION on LinkedIn"
           >
             LinkedIn
           </a>
-          <a
-            href="mailto:info@aimilion.com"
-            className="hover:text-white"
-            aria-label="Send email to info@aimilion.com"
-          >
+          <a href="mailto:info@aimilion.com" className="hover:text-white">
             Email
           </a>
         </div>
         <p className="mt-4 text-xs text-gray-500">
-          © {year} AIMILION. All rights reserved.
+          © {new Date().getFullYear()} AIMILION. All rights reserved.
         </p>
       </footer>
     </main>
