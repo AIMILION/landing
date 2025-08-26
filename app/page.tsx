@@ -7,7 +7,7 @@ export default function Home() {
           {/* Logotipas */}
           <img src="/logo.png" alt="AIMILION Logo" className="h-10 mb-2" />
 
-          {/* Pavadinimas */}
+          {/* Pavadinimas + šūkis */}
           <h1 className="text-xl font-bold tracking-widest">AIMILION</h1>
           <p className="text-sm text-gray-400">GOING WITH LIONS</p>
         </div>
@@ -39,10 +39,7 @@ export default function Home() {
           >
             LinkedIn
           </a>
-          <a
-            href="mailto:info@aimilion.com"
-            className="hover:text-white"
-          >
+          <a href="mailto:info@aimilion.com" className="hover:text-white">
             Email
           </a>
         </div>
