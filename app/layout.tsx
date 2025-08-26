@@ -1,8 +1,6 @@
-// app/layout.tsx
 import "./globals.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "AIMILION",
   description: "GOING WITH LIONS",
 };
